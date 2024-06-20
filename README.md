@@ -606,74 +606,327 @@ while i < 5:
     print(i)
     i += 1
 ```
+Certainly! Let's proceed with creating a new README file based on the content you've provided. Here's the structured text for the README file:
 
-## Functions
-Functions are blocks of code that perform a specific task.
+---
 
-### Function Definition
+### Break Statement
+
+The break statement enables a program to skip over a part of the code. A break statement terminates the very loop it lies within.
+
 ```python
-def function_name(parameters):
-    <statement>
+for <var> in <sequence>:
+    statement1
+    if <condition>:
+        break
+    statement2
+statement_after_loop
 ```
 
-Example:
+**Example:**
 
 ```python
-def greet(name):
-    print("Hello, " + name)
-
-greet("Shruti")
+for i in range(1, 101):
+    print(i, end=" ")
+    if i == 50:
+        break
+    else:
+        print("Mississippi")
+print("Thank you")
 ```
 
-### Return Statement
-The `return` statement is used to exit a function and return a value.
+### Continue Statement
+
+The continue statement skips the rest of the loop statements and causes the next iteration to occur.
 
 ```python
-def sum(a, b):
+for <var> in <sequence>:
+    statement1
+    if <condition>:
+        continue
+    statement2
+    statement3
+    statement4
+```
+
+**Example:**
+
+```python
+for i in [2, 3, 4, 6, 8, 0]:
+    if i % 2 != 0:
+        continue
+    print(i)
+```
+
+### Functions
+
+A function is a block of code that performs a specific task. You can pass parameters into a function. It helps us to make our code more organized and manageable.
+
+**Function Definition:**
+
+```python
+def my_function():
+    # statements
+```
+
+`def` keyword is used before defining the function.
+
+**Function Call:**
+
+```python
+my_function()
+```
+
+Whenever we need that block of code in our program, simply call that function name. If parameters are passed during defining the function, we have to pass the parameters while calling that function.
+
+**Example:**
+
+```python
+def add(a, b):  # function definition
     return a + b
 
-print(sum(3, 5))
+x = add(7, 8)
+print(x)  # function call
 ```
 
-## Exception Handling
-Exceptions are errors that occur during the execution of the program. We can handle exceptions using `try` and `except` blocks.
+### Return Statement in Python Function
 
-### try-except Block
+The function return statement returns the specified value or data item to the caller.
+
 ```python
-try:
-    <statement>
-except:
-    <statement>
+return [value/expression]
 ```
 
-Example:
+### Arguments in Python Function
+
+Arguments are the values passed inside the parenthesis of the function while defining as well as while calling.
 
 ```python
-try:
-    print(10 / 0)
-except ZeroDivisionError:
-    print("Cannot divide by zero")
+def my_function(arg1, arg2, arg3, ..., argn):
+    # statements
+
+my_function(arg1, arg2, arg3, ..., argn)
 ```
 
-### finally Block
-The `finally` block is executed no matter if the try block raises an error or not.
+**Example:**
+
+```python
+def add(a, b):
+    return a + b
+
+x = add(7, 8)
+print(x)
+```
+
+### File Handling
+
+File handling refers to reading or writing data from files. Python provides some functions that allow us to manipulate data in the files.
+
+**Open Function:**
+
+```python
+var_name = open("file name", " mode")
+```
+
+**Modes:**
+- `r`: to read the content from file
+- `w`: to write the content into file
+- `a`: to append the existing content into file
+- `r+`: To read and write data into the file. The previous data in the file will be overridden.
+- `w+`: To write and read data. It will override existing data.
+- `a+`: To append and read data from the file. It won’t override existing data.
+
+**Close Function:**
+
+```python
+var_name.close()
+```
+
+**Read Functions:**
+
+- `read()`: returns one big string
+- `readlines()`: returns a list
+- `readline()`: returns one line at a time
+
+**Write Function:**
+
+```python
+write()  # Used to write a fixed sequence of characters to a file
+```
+
+**Example:**
+
+```python
+with open('file.txt', 'w') as f:
+    f.write("Hello, World!")
+```
+
+### Exception Handling
+
+An exception is an unusual condition that results in an interruption in the flow of a program.
+
+**Try and Except:**
+
+A basic try-catch block in Python. When the try block throws an error, the control goes to the except block.
 
 ```python
 try:
-    <statement>
-except:
-    <statement>
+    # statements
+    raise Exception()
+except Exceptionname:
+    # error processing block
+else:
+    # statements
 finally:
-    <statement>
+    # statements
 ```
 
-Example:
+### Object Oriented Programming (OOPS)
+
+It is a programming approach that primarily focuses on using objects and classes. The objects can be any real-world entities.
+
+**Class:**
 
 ```python
-try:
-    print(10 / 0)
-except ZeroDivisionError:
-    print("Cannot divide by zero")
-finally:
-    print("Execution complete")
+class class_name:
+    pass  # statements
 ```
+
+**Creating an Object:**
+
+```python
+<object-name> = <class-name>(<arguments>)
+```
+
+**Self Parameter:**
+
+The `self` parameter is the first parameter of any function present in the class. It can be of a different name, but this parameter is a must while defining any function into a class as it is used to access other data members of the class.
+
+**Class with a Constructor:**
+
+Constructor is a special function of the class which is used to initialize the objects.
+
+```python
+class CodeWithHarry:
+
+    # Default constructor
+    def __init__(self):
+        self.name = "CodeWithHarry"
+
+    # A method for printing data members
+    def print_me(self):
+        print(self.name)
+```
+
+### Inheritance in Python
+
+By using inheritance, we can create a class which uses all the properties and behavior of another class. The new class is known as a derived class or child class, and the one whose properties are acquired is known as a base class or parent class.
+
+It provides the re-usability of the code.
+
+**Base Class:**
+
+```python
+class Base_class:
+    pass
+```
+
+**Derived Class:**
+
+```python
+class derived_class(Base_class):
+    pass
+```
+
+### Types of Inheritance
+
+- Single inheritance
+- Multiple inheritance
+- Multilevel inheritance
+- Hierarchical inheritance
+
+### Filter Function
+
+The `filter()` function allows you to process an iterable and extract those items that satisfy a given condition.
+
+```python
+filter(function, iterable)
+```
+
+### issubclass Function
+
+Used to find whether a class is a subclass of a given class or not.
+
+```python
+issubclass(obj, classinfo)  # returns True if obj is a subclass of classinfo
+```
+
+### Iterators and Generators
+
+Here are some advanced topics of the Python programming language like iterators and generators.
+
+**Iterator:**
+
+Used to create an iterator over an iterable.
+
+```python
+iter_list = iter(['Harry', 'Aakash', 'Rohan'])
+print(next(iter_list))
+print(next(iter_list))
+print(next(iter_list))
+```
+
+**Generator:**
+
+Used to generate values on the fly.
+
+```python
+# A simple generator function
+def my_gen():
+    n = 1
+    print('This is printed first')
+    # Generator function contains yield statements
+    yield n
+    n += 1
+    print('This is printed second')
+    yield n
+    n += 1
+    print('This is printed at last')
+    yield n
+```
+
+### Decorators
+
+Decorators are used to modifying the behavior of a function or a class. They are usually called before the definition of a function you want to decorate.
+
+**Property Decorator (getter):**
+
+```python
+@property
+def name(self):
+    return self.__name
+```
+
+**Setter Decorator:**
+
+It is used to set the property 'name'.
+
+```python
+@name.setter
+def name(self, value):
+    self.__name = value
+```
+
+**Deleter Decorator:**
+
+It is used to delete the property 'name'.
+
+```python
+@name.deleter  # property-name.deleter decorator
+def name(self):
+    print('Deleting..')
+    del self.__name
+```
+
+---
+
