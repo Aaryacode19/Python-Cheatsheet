@@ -408,9 +408,7 @@ The dictionary is an unordered set of comma-separated key:value pairs, within `{
 Dictionary is an ordered and mutable collection of elements. Dictionary allows duplicate values but not duplicate keys.
 
 ### Empty Dictionary
-By
-
- using this method you can create an empty dictionary.
+By using this method you can create an empty dictionary.
 
 ```python
 my_dict = {}
@@ -530,7 +528,7 @@ else:
     print("5 is not greater than 2")
 ```
 
-### elif Statement
+### if-elif-else Statement
 ```python
 if <condition>:
     <statement>
@@ -550,6 +548,30 @@ elif x == 2:
     print("x is equal to 2")
 else:
     print("x is less than 2")
+```
+
+### Nested if-else Statement
+```python
+if (conditional expression):
+    if (conditional expression):
+        statements
+    else:
+        statements
+else:
+    statements
+```
+
+### Example
+```python
+a = 15
+b = 20
+c = 12
+if (a > b and a > c):
+    print(a, "is greatest")
+elif (b > c and b > a):
+    print(b, "is greatest")
+else:
+    print(c, "is greatest")
 ```
 
 ## Loops
