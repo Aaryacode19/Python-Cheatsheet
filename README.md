@@ -578,6 +578,7 @@ else:
 Loops are used to repeat a block of code multiple times.
 
 ### for Loop
+The for loop of  Python is designed to process the items of any sequence, such as a list or a string, one by one.
 ```python
 for <variable> in <sequence>:
     <statement>
@@ -591,6 +592,7 @@ for i in range(5):
 ```
 
 ### while Loop
+A while loop is a conditional loop that will repeat the instructions within itself as long as a conditional remains true.
 ```python
 while <condition>:
     <statement>
