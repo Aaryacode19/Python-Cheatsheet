@@ -84,37 +84,37 @@ print("\n")
 ```
 
 **Backslash**
-
+It adds a backslash
 ```python
 print("\\")
 ```
 
 **Single Quote**
-
+It adds a single quotation mark
 ```python
 print("\'")
 ```
 
 **Tab**
-
+It gives a tab space
 ```python
 print("\t")
 ```
 
 **Backspace**
-
+It adds a backspace
 ```python
 print("\b")
 ```
 
 **Octal value**
-
+It represents the value of an octal number
 ```python
 print("\ooo")
 ```
 
 **Hex value**
-
+It represents the value of a hex number
 ```python
 print("\xhh")
 ```
