@@ -1,9 +1,15 @@
+
+██████╗ ██╗   ██╗████████╗██╗  ██╗ ██████╗ ███╗   ██╗
+██╔══██╗╚██╗ ██╔╝╚══██╔══╝██║  ██║██╔═══██╗████╗  ██║
+██████╔╝ ╚████╔╝    ██║   ███████║██║   ██║██╔██╗ ██║
+██╔═══╝   ╚██╔╝     ██║   ██╔══██║██║   ██║██║╚██╗██║
+██║        ██║      ██║   ██║  ██║╚██████╔╝██║ ╚████║
+╚═╝        ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+                                                     
+                                                                                
 # Python-Cheatsheet
 
-## Basics
-Basic syntax from the Python programming language
-
-### Showing Output To User
+## Showing Output To User
 The `print` function is used to display or print output as follows:
 
 ```python
@@ -18,7 +24,7 @@ print("Hi my name is: ", var1)
 print(f"Hi my name is {var1}") #using f string method
 ```
 
-### Taking Input From the User
+## Taking Input From the User
 The `input` function is used to take input as a string or character from the user as follows:
 
 ```python
@@ -126,7 +132,7 @@ for i in range(0, 101, 2):
     print(i)
 ```
 
-### Comments
+## Comments
 Comments are used to make the code more understandable for programmers, and they are not executed by the compiler or interpreter.
 
 **Single line comment**
@@ -143,7 +149,7 @@ multi-line
 comment'''
 ```
 
-### Escape Sequence
+## Escape Sequence
 An escape sequence is a sequence of characters; it doesn't represent itself (but is translated into another character) when used inside a string literal or character. Some of the escape sequence characters are as follows:
 
 **Newline Character**:
@@ -260,7 +266,7 @@ substring6 = text[::-1]
 print(substring6)  # Output: "!dlroW ,olleH"
 ```
 
-### String Methods
+## String Methods
 - **isalnum()**: Returns `True` if all the characters in the string are alphanumeric, else `False`.
 
 ```python
@@ -758,7 +764,7 @@ for <var> in <sequence>:
     statement4
 ```
 
-### Functions
+## Functions
 
 A function is a block of code that performs a specific task. You can pass parameters into a function. It helps us to make our code more organized and manageable.
 
@@ -815,7 +821,7 @@ print(result)  # Output: 8
 
 Therefore Parameters define what kind of data a function can accept, while arguments are the actual data passed to the function when called. This distinction allows functions to be versatile and reusable in Python programming.
 
-### File Handling
+## File Handling
 
 File handling refers to reading or writing data from files. Python provides some functions that allow us to manipulate data in the files.
 
