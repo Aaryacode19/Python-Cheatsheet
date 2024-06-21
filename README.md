@@ -40,6 +40,7 @@ To take input as a float:
 ```python
 var1 = float(input("Enter the float value: "))
 print(var1)
+#similar to int and float we also have char, str etc
 ```
 
 ### range Function
