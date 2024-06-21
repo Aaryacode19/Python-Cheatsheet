@@ -534,28 +534,25 @@ The dictionary is an unordered set of comma-separated key:value pairs, within `{
 
 Dictionary is an ordered and mutable collection of elements. Dictionary allows duplicate values but not duplicate keys.
 
-### Empty Dictionary
-By using this method you can create an empty dictionary.
+### Dictionary Methods
+- **Empty Dictionary**:By using this method you can create an empty dictionary.
 
 ```python
 my_dict = {}
 ```
 
-### Accessing Dictionary Items
-To access the elements from a dictionary we use the key name.
-
-```python
-dictionary[keyname]
-```
-
-### Adding Key/Value Pair
-This method adds the key-value pair to the dictionary.
+- **Adding Key/Value Pair**:This method adds the key-value pair to the dictionary.
 
 ```python
 my_dict[key] = value
 ```
 
-### Dictionary Methods
+- **Accessing Dictionary Items**:To access the elements from a dictionary we use the key name.
+
+```python
+dictionary[keyname]
+```
+
 - **clear**: Removes all elements from the dictionary.
 
 ```python
