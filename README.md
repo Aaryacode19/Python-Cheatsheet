@@ -865,25 +865,45 @@ var_name.write("hello")
 var_name.close()
 ```
 
-### Exception Handling
+## Exception Handling
 
-An exception is an unusual condition that results in an interruption in the flow of a program.
+Exception handling in Python allows you to manage and respond to errors that may occur during program execution.
 
-**Try and Except:**
-
-A basic try-catch block in Python. When the try block throws an error, the control goes to the except block.
+Syntax:
 
 ```python
 try:
-    # statements
-    raise Exception()
-except Exceptionname:
-    # error processing block
+    # Code that might raise an exception
+except ExceptionType1:
+    # Handle ExceptionType1
+except ExceptionType2:
+    # Handle ExceptionType2
+except ExceptionType3:
+    # Handle ExceptionType3
 else:
-    # statements
+    # Optional else block
+    # Executes if no exceptions were raised in the try block
 finally:
-    # statements
+    # Optional finally block
+    # Executes whether an exception occurred or not
+    # Useful for cleanup actions like closing files or releasing resources
 ```
+
+Types of Exception handling: 
+
+```python
+try:
+    # Code that might raise different exceptions
+except ZeroDivisionError:
+    # Handle division by zero error
+except IndexError:
+    # Handle index out of range error
+except FileNotFoundError:
+    # Handle file not found error
+except KeyError:
+    # Handel Key errors
+```
+
 
 ### Object Oriented Programming (OOPS)
 
