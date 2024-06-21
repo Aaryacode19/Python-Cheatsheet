@@ -730,11 +730,8 @@ while i < 5:
     print(i)
     i += 1
 ```
-Certainly! Let's proceed with creating a new README file based on the content you've provided. Here's the structured text for the README file:
 
----
-
-### Break Statement
+## Break Statement
 
 The break statement enables a program to skip over a part of the code. A break statement terminates the very loop it lies within.
 
@@ -742,24 +739,12 @@ The break statement enables a program to skip over a part of the code. A break s
 for <var> in <sequence>:
     statement1
     if <condition>:
-        break
+        break #therefore every line of code after this break statement will not get execute.
     statement2
 statement_after_loop
 ```
 
-**Example:**
-
-```python
-for i in range(1, 101):
-    print(i, end=" ")
-    if i == 50:
-        break
-    else:
-        print("Mississippi")
-print("Thank you")
-```
-
-### Continue Statement
+## Continue Statement
 
 The continue statement skips the rest of the loop statements and causes the next iteration to occur.
 
@@ -767,19 +752,10 @@ The continue statement skips the rest of the loop statements and causes the next
 for <var> in <sequence>:
     statement1
     if <condition>:
-        continue
+        continue #therefore here statements after continue will get execute
     statement2
     statement3
     statement4
-```
-
-**Example:**
-
-```python
-for i in [2, 3, 4, 6, 8, 0]:
-    if i % 2 != 0:
-        continue
-    print(i)
 ```
 
 ### Functions
