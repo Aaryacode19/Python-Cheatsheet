@@ -51,6 +51,7 @@ range(int_start_value, int_stop_value, int_step_value)
 ```
 
 Here the start value and step value are by default 1 if not mentioned by the programmer, but `int_stop_value` is a compulsory parameter in the range function.
+also note that `int_start_value`  is inclusive whereas `int_stop_value`  is exclusive
 
 Example - Display all even numbers between 1 to 100:
 
