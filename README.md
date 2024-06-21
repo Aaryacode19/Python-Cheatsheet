@@ -853,9 +853,16 @@ write()  # Used to write a fixed sequence of characters to a file
 
 **Example:**
 
+In Python, we have two ways to handle files. In the first way, we do not need to close the file we opened, but in the second way, we have to close the file we opened.
+
 ```python
+#1st way:
 with open('file.txt', 'w') as f:
     f.write("Hello, World!")
+#2nd way:
+var_name = open("file name", " mode")
+var_name.write("hello")
+var_name.close()
 ```
 
 ### Exception Handling
