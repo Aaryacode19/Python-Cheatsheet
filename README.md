@@ -984,7 +984,8 @@ class class_name:
 **Creating an Object:**
 
 ```python
-<object-name> = <class-name>(<arguments>)
+object-name = Class_name
+Object-name.(whatev u wan do) 
 ```
 
 **Self Parameter:**
@@ -996,15 +997,20 @@ The `self` parameter is the first parameter of any function present in the class
 Constructor is a special function of the class which is used to initialize the objects.
 
 ```python
-class CodeWithHarry:
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
 
-    # Default constructor
-    def __init__(self):
-        self.name = "CodeWithHarry"
-
-    # A method for printing data members
-    def print_me(self):
+  # A method for printing data members
+  def print_me(self):
         print(self.name)
+
+p1 = Person("Aarya", 20)
+
+print(p1.name)
+print(p1.age)
+
 ```
 
 ### Inheritance in Python
