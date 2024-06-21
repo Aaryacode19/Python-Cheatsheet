@@ -13,8 +13,9 @@ print("Content that you wanna print on screen")
 We can display the content present in an object using the `print` function as follows:
 
 ```python
-var1 = "Shruti"
+var1 = "Aarya"
 print("Hi my name is: ", var1)
+print(f"Hi my name is {var1}") #using f string method
 ```
 
 ### Taking Input From the User
