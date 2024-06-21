@@ -80,43 +80,44 @@ comment'''
 ### Escape Sequence
 An escape sequence is a sequence of characters; it doesn't represent itself (but is translated into another character) when used inside a string literal or character. Some of the escape sequence characters are as follows:
 
-**Newline Character**
+**Newline Character**:
+using newline character we can jump to next line, i.e. the code \n will execute in new line
 
 ```python
 print("\n")
 ```
 
-**Backslash**
+**Backslash**:
 It adds a backslash
 ```python
 print("\\")
 ```
 
-**Single Quote**
+**Single Quote**:
 It adds a single quotation mark
 ```python
 print("\'")
 ```
 
-**Tab**
+**Tab**:
 It gives a tab space
 ```python
 print("\t")
 ```
 
-**Backspace**
+**Backspace**:
 It adds a backspace
 ```python
 print("\b")
 ```
 
-**Octal value**
+**Octal value**:
 It represents the value of an octal number
 ```python
 print("\ooo")
 ```
 
-**Hex value**
+**Hex value**:
 It represents the value of a hex number
 ```python
 print("\xhh")
