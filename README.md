@@ -762,61 +762,58 @@ for <var> in <sequence>:
 
 A function is a block of code that performs a specific task. You can pass parameters into a function. It helps us to make our code more organized and manageable.
 
-**Function Definition:**
+### Defining a Function
+
+Functions are defined using the `def` keyword followed by the function name and optional parameters:
 
 ```python
-def my_function():
-    # statements
+def greet(name):
+    return f"Hello, {name}!"
 ```
 
-`def` keyword is used before defining the function.
+### Calling a Function
 
-**Function Call:**
+To use a function, call it by its name and provide necessary arguments:
 
 ```python
-my_function()
+message = greet("Charlie")
+print(message)  # Output: "Hello, Charlie!"
 ```
 
-Whenever we need that block of code in our program, simply call that function name. If parameters are passed during defining the function, we have to pass the parameters while calling that function.
+### Return Values
 
-**Example:**
+Functions can return values using the `return` statement:
 
 ```python
-def add(a, b):  # function definition
-    return a + b
+def multiply(a, b):
+    return a * b
 
-x = add(7, 8)
-print(x)  # function call
+product = multiply(4, 6)
+print(product)  # Output: 24
 ```
 
-### Return Statement in Python Function
+### Parameters vs Arguments
 
-The function return statement returns the specified value or data item to the caller.
+- **Parameters**: Variables defined in the function's declaration to receive values and they act as placeholders for values that 
+the function expects to receive when it is called (i.e. argument).
+- **Arguments**: Actual values passed to a function when it is called.
 
 ```python
-return [value/expression]
+def greet(name):  # 'name' is a parameter
+    print(f"Hello, {name}!")
+
+greet("Alice")  # "Alice" is an argument
 ```
-
-### Arguments in Python Function
-
-Arguments are the values passed inside the parenthesis of the function while defining as well as while calling.
 
 ```python
-def my_function(arg1, arg2, arg3, ..., argn):
-    # statements
+def add(x, y):  # 'x' and 'y' are parameters
+    return x + y
 
-my_function(arg1, arg2, arg3, ..., argn)
+result = add(3, 5)  # 3 and 5 are arguments
+print(result)  # Output: 8
 ```
 
-**Example:**
-
-```python
-def add(a, b):
-    return a + b
-
-x = add(7, 8)
-print(x)
-```
+Therefore Parameters define what kind of data a function can accept, while arguments are the actual data passed to the function when called. This distinction allows functions to be versatile and reusable in Python programming.
 
 ### File Handling
 
