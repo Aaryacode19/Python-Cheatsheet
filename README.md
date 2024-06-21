@@ -43,7 +43,78 @@ print(var1)
 #similar to int and float we also have char, str etc
 ```
 
-### range Function
+Certainly! Here's the `README.md` file that provides a concise overview of basic data types in Python:
+
+```markdown
+## Python Data Types
+### Numeric Types
+
+- **int**: Integer numbers.
+  ```python
+  x = 5
+  ```
+
+- **float**: Floating-point numbers (decimals).
+  ```python
+  y = 5.5
+  ```
+
+- **complex**: Complex numbers.
+  ```python
+  z = 1 + 2j
+  ```
+
+### Sequence Types
+
+- **str**: String of characters.
+  ```python
+  name = "Alice"
+  ```
+
+- **list**: Ordered, mutable collection.
+  ```python
+  fruits = ["apple", "banana", "cherry"]
+  ```
+
+- **tuple**: Ordered, immutable collection.
+  ```python
+  point = (10, 20)
+  ```
+
+### Mapping Type
+
+- **dict**: Key-value pairs, unordered.
+  ```python
+  person = {"name": "Alice", "age": 25}
+  ```
+
+### Set Types
+
+- **set**: Unordered collection of unique elements.
+  ```python
+  unique_numbers = {1, 2, 3}
+  ```
+
+- **frozenset**: Immutable version of set.
+  ```python
+  frozen_numbers = frozenset([1, 2, 3])
+  ```
+
+### Boolean Type
+
+- **bool**: True or False.
+  ```python
+  is_active = True
+  ```
+
+### None Type
+
+- **NoneType**: Represents the absence of value.
+  ```python
+  unknown = None
+  ```
+
+## range Function
 The `range` function returns a sequence of numbers, e.g., numbers starting from 0 to n-1 for `range(0, n)`.
 
 ```python
