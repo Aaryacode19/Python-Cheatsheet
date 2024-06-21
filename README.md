@@ -973,6 +973,19 @@ In this example, the `global` keyword is used inside the `modify_global_variable
 ## Object Oriented Programming (OOPS)
 
 It is a programming approach that primarily focuses on using objects and classes. The objects can be any real-world entities.
+![Slidesgo Workshop](images/Copy%20of%20Programming%20Language%20Workshop%20for%20Beginners%20by%20Slidesgo%20(6).png)
+
+![Workshop Image](images/Copy%20of%20Programming%20Language%20Workshop%20for%20Beginners%20by%20Slidesgo%20(5).png)
+
+![Workshop Image](images/Copy%20of%20Programming%20Language%20Workshop%20for%20Beginners%20by%20Slidesgo%20(4).png)
+
+![Workshop Image](images/Copy%20of%20Programming%20Language%20Workshop%20for%20Beginners%20by%20Slidesgo%20(3).png)
+
+![Workshop Image](images/Copy%20of%20Programming%20Language%20Workshop%20for%20Beginners%20by%20Slidesgo%20(2).png)
+
+![Workshop Image](images/Copy%20of%20Programming%20Language%20Workshop%20for%20Beginners%20by%20Slidesgo%20(1).png)
+
+![Workshop Image](images/Copy%20of%20Programming%20Language%20Workshop%20for%20Beginners%20by%20Slidesgo.png)
 
 
 
