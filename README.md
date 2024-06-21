@@ -148,8 +148,9 @@ str = "Aarya"
 print("String is ", str)
 ```
 
-### Indexing
+## Indexing
 The position of every character placed in the string starts from 0th position and step by step it ends at length-1 position.
+![Python List Indexing](python-list-index.png)
 
 ### Slicing
 Slicing refers to obtaining a sub-string from the given string. The following code will include index 1, 2, 3, and 4 for the variable named `var_name`.
