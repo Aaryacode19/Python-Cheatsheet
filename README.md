@@ -44,7 +44,6 @@ print(var1)
 ```
 ## Python Data Types
 ### Numeric Types
-```
 - **int**: Integer numbers.
   ```python
   x = 5
