@@ -411,23 +411,51 @@ variable_name = (element1, element2, ...)
 
 These elements can be of different data types.
 
-### Indexing
 The position of every element placed in the tuple starts from 0th position and step by step it ends at length-1 position.
 
 Tuples are ordered, indexed, immutable, and the most secured collection of elements.
 
 ### Tuple Methods
-- **count**: Returns the number of times a specified value occurs in a tuple.
+
+Tuples in Python are immutable, meaning their contents cannot be changed after creation. While methods that modify data (like `append()`, `insert()`, `remove()`, `pop()`, `sort()`, `reverse()`) are exclusive to lists, you can safely use other methods with tuples:
+
+- **Querying Methods:**
+  - `count(value)`: Returns the number of occurrences of `value`.
+  - `index(value)`: Returns the index of the first occurrence of `value`.
+
+- **Utility Methods:**
+  - `len()`: Returns the number of items in the tuple.
+  - `min()`: Returns the smallest item in the tuple.
+  - `max()`: Returns the largest item in the tuple.
+
+- **Iteration and Membership Checking:**
+  - Use `for` loops to iterate over tuple elements.
+  - Check membership with `in` and `not in`.
+
+### Example:
 
 ```python
-tuple.count(value)
+my_tuple = (1, 2, 3, 2, 4)
+
+# Querying methods
+count_twos = my_tuple.count(2)  # Output: 2
+index_two = my_tuple.index(2)   # Output: 1
+
+# Utility methods
+tuple_length = len(my_tuple)    # Output: 5
+min_value = min(my_tuple)       # Output: 1
+max_value = max(my_tuple)       # Output: 4
+
+# Iteration and membership checking
+for item in my_tuple:
+    print(item)
+
+if 3 in my_tuple:
+    print("3 is present in the tuple")
+else:
+    print("3 is not present in the tuple")
 ```
 
-- **index**: Searches the tuple for a specified value and returns the position.
-
-```python
-tuple.index(value)
-```
 
 ## Sets
 A set is a collection of multiple values which is both unordered and unindexed. It is written in curly brackets.
