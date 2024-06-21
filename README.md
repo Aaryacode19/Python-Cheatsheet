@@ -904,8 +904,73 @@ except KeyError:
     # Handel Key errors
 ```
 
+## Local and Global Variables in Python
 
-### Object Oriented Programming (OOPS)
+In Python, variables can have different scopes, primarily categorized into two main types: local and global.
+
+### 1. Local Variables:
+
+- **Definition**:
+  - Local variables are defined within a function and are only accessible within that function.
+  - They have a limited scope and are not visible or usable outside the function.
+  - Local variables are created when the function is called and destroyed when the function exits.
+
+**Example:**
+```python
+def my_function():
+    # This is a local variable
+    x = 10
+    print("Inside the function: x =", x)
+
+my_function()
+```
+
+In this example, `x` is a local variable within the `my_function` function. It can only be accessed and used within the function.
+
+### 2. Global Variables:
+
+- **Definition**:
+  - Global variables are defined outside of any function and are accessible from any part of the code, both inside and outside functions.
+  - They have a broader scope and can be used throughout the entire program.
+
+**Example:**
+```python
+# This is a global variable
+y = 20
+
+def my_function():
+    # Accessing the global variable within the function
+    print("Inside the function: y =", y)
+
+my_function()
+
+# We can also access y outside the function
+print("Outside the function: y =", y)
+```
+
+In this example, `y` is a global variable defined outside the function `my_function`. It can be accessed both inside and outside the function without any issues.
+
+### Modifying Global Variables:
+
+- **Usage of `global` Keyword**:
+  - To modify the value of a global variable from within a function, use the `global` keyword to indicate that you are working with the global variable.
+
+**Example:**
+```python
+z = 30
+
+def modify_global_variable():
+    global z  # Use the 'global' keyword to modify the global variable
+    z = 40
+
+modify_global_variable()
+print("Modified global variable z =", z)
+```
+
+In this example, the `global` keyword is used inside the `modify_global_variable` function to modify the global variable `z`. As a result, the value of `z` is changed to 40.
+
+
+## Object Oriented Programming (OOPS)
 
 It is a programming approach that primarily focuses on using objects and classes. The objects can be any real-world entities.
 
