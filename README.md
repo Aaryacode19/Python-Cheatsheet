@@ -42,13 +42,9 @@ var1 = float(input("Enter the float value: "))
 print(var1)
 #similar to int and float we also have char, str etc
 ```
-
-Certainly! Here's the `README.md` file that provides a concise overview of basic data types in Python:
-
-```markdown
 ## Python Data Types
 ### Numeric Types
-
+```
 - **int**: Integer numbers.
   ```python
   x = 5
