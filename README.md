@@ -1002,15 +1002,11 @@ class Person:
     self.name = name
     self.age = age
 
-  # A method for printing data members
-  def print_me(self):
-        print(self.name)
+  def myfunc(self): #here we have created a function inside a class person/method for that specific class
+    print("Hello my name is " + self.name)
 
-p1 = Person("Aarya", 20)
-
-print(p1.name)
-print(p1.age)
-
+p1 = Person("John", 36)
+p1.myfunc() #we used a method of particular class on its object
 ```
 
 ### Inheritance in Python
