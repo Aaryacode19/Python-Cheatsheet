@@ -144,7 +144,7 @@ variable_name = "String Data"
 Example:
 
 ```python
-str = "Shruti"
+str = "Aarya"
 print("String is ", str)
 ```
 
