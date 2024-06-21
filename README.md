@@ -974,40 +974,7 @@ In this example, the `global` keyword is used inside the `modify_global_variable
 
 It is a programming approach that primarily focuses on using objects and classes. The objects can be any real-world entities.
 
-**Class:**
 
-```python
-class class_name:
-    pass  # statements
-```
-
-**Creating an Object:**
-
-```python
-object-name = Class_name
-Object-name.(whatev u wan do) 
-```
-
-**Self Parameter:**
-
-The `self` parameter is the first parameter of any function present in the class. It can be of a different name, but this parameter is a must while defining any function into a class as it is used to access other data members of the class.
-
-**Class with a Constructor:**
-
-Constructor is a special function of the class which is used to initialize the objects.
-
-```python
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
-
-  def myfunc(self): #here we have created a function inside a class person/method for that specific class
-    print("Hello my name is " + self.name)
-
-p1 = Person("John", 36)
-p1.myfunc() #we used a method of particular class on its object
-```
 
 ### Inheritance in Python
 
