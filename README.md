@@ -1,11 +1,4 @@
-
-██████╗ ██╗   ██╗████████╗██╗  ██╗ ██████╗ ███╗   ██╗
-██╔══██╗╚██╗ ██╔╝╚══██╔══╝██║  ██║██╔═══██╗████╗  ██║
-██████╔╝ ╚████╔╝    ██║   ███████║██║   ██║██╔██╗ ██║
-██╔═══╝   ╚██╔╝     ██║   ██╔══██║██║   ██║██║╚██╗██║
-██║        ██║      ██║   ██║  ██║╚██████╔╝██║ ╚████║
-╚═╝        ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
-                                                     
+![Python Image](images/python.jpg)
                                                                                 
 # Python-Cheatsheet
 
@@ -994,6 +987,5 @@ It is a programming approach that primarily focuses on using objects and classes
 ![Workshop Image](images/Copy%20of%20Programming%20Language%20Workshop%20for%20Beginners%20by%20Slidesgo.png)
 
 
-
-###For more detailed explanations and examples, refer to [W3Schools Python Tutorial](https://www.w3schools.com/python/default.asp)
+# For more detailed explanations and examples, refer to [W3Schools Python Tutorial](https://www.w3schools.com/python/default.asp)
 
