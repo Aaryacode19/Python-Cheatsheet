@@ -330,19 +330,17 @@ var_name = [element1, element2, ...]
 
 These elements can be of different data types.
 
-### Indexing
 The position of every element placed in the list starts from 0th position and step by step it ends at length-1 position.
 
 List is ordered, indexed, mutable and the most flexible and dynamic collection of elements in Python.
 
-### Empty List
-This method allows you to create an empty list.
+### List Methods
 
+-**Empty list**: This method allows you to create an empty list.
 ```python
 my_list = []
 ```
 
-### List Methods
 - **index**: Returns the index of the first element with the specified value.
 
 ```python
@@ -1028,6 +1026,5 @@ def name(self):
     print('Deleting..')
     del self.__name
 ```
-
----
+###For more detailed explanations and examples, refer to [W3Schools Python Tutorial](https://www.w3schools.com/python/default.asp)
 
