@@ -199,8 +199,6 @@ print("\r")
 
 ## Strings
 Python string is a sequence of characters, and each character can be individually accessed using its index.
-
-### String
 You can create Strings by enclosing text in both forms of quotes - single quotes or double quotes.
 
 ```python
@@ -218,17 +216,49 @@ print("String is ", str)
 The position of every character placed in the string starts from 0th position and step by step it ends at length-1 position.
 ![Python List Indexing](python-list-index.png)
 
-### Slicing
-Slicing refers to obtaining a sub-string from the given string. The following code will include index 1, 2, 3, and 4 for the variable named `var_name`.
+## Python Slicing
 
-Slicing of the string can be obtained by the following syntax:
+Slicing is a technique in Python used to extract a portion of a sequence (like a string, list, or tuple) by specifying a start index, an end index (exclusive), and an optional step size.
+
+### Syntax:
 
 ```python
-string_var[int_start_value:int_stop_value:int_step_value]
-var_name[1 : 5]
+sequence[start:end:step]
 ```
 
-Here start and step value are considered 0 and 1 respectively if not mentioned by the programmer.
+- **start**: The index where the slice begins (inclusive).
+- **end**: The index where the slice ends (exclusive).
+- **step** (optional): The increment between characters or elements in the slice.
+
+### Examples:
+
+```python
+text = "Hello, World!"
+
+# Extract substring from index 0 to 5 (exclusive).
+substring1 = text[0:5]
+print(substring1)  # Output: "Hello"
+
+# Omit start index (starts from beginning).
+substring2 = text[:5]
+print(substring2)  # Output: "Hello"
+
+# Extract substring from index 7 to end of string.
+substring3 = text[7:]
+print(substring3)  # Output: "World!"
+
+# Negative index to count from end of string.
+substring4 = text[-6:]
+print(substring4)  # Output: "World!"
+
+# Extract every other character.
+substring5 = text[::2]
+print(substring5)  # Output: "Hlo ol!"
+
+# Reverse the string.
+substring6 = text[::-1]
+print(substring6)  # Output: "!dlroW ,olleH"
+```
 
 ### String Methods
 - **isalnum()**: Returns `True` if all the characters in the string are alphanumeric, else `False`.
