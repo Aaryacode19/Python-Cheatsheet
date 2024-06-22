@@ -1,6 +1,6 @@
 ![Python Image](images/python.jpg)
                                                                                 
-# Python-Cheatsheet
+# Python-Cheatsheet 🐍
 
 ## Showing Output To User
 The `print` function is used to display or print output as follows:
