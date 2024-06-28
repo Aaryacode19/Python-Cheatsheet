@@ -819,9 +819,6 @@ print(result)  # Output: 8
 
 Therefore Parameters define what kind of data a function can accept, while arguments are the actual data passed to the function when called. This distinction allows functions to be versatile and reusable in Python programming.
 
-Certainly! Here's how you can format the README file to explain various ways to import modules in Python:
-
----
 
 ## Ways to Import Modules in Python
 
