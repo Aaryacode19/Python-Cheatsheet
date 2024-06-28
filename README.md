@@ -455,8 +455,7 @@ else:
     print("3 is not present in the tuple")
 ```
 
-For more details, refer to the this [PDF](images/pdf files/Python Tuple.pdf) .
-
+For more details, refer to the [PDF](images/pdf%20files/Python%20Tuple.pdf).
 
 ## Sets
 A set is a collection of multiple values which is both unordered and unindexed. It is written in curly brackets.
@@ -525,7 +524,7 @@ set.remove(item)
 set.union(set1, set2...)
 ```
 
-For more details, refer to the this [PDF](images/pdf files/Python Sets.pdf) .
+For more details, refer to the [PDF](images/pdf%20files/Python%20Sets.pdf).
 
 ## Dictionaries
 The dictionary is an unordered set of comma-separated key:value pairs, within `{}`, with the requirement that within a dictionary, no two keys can be the same.
@@ -622,7 +621,7 @@ dict.update([other])
 dict.values()
 ```
 
-For more details, refer to the this [PDF](images/pdf files/Python Dict.pdf) .
+For more details, refer to the [PDF](images/pdf%20files/Python%20Dict.pdf).
 
 ## Conditional Statements
 Conditional statements help us to execute some particular block of statements if the specified condition is `True`.
