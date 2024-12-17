@@ -1047,5 +1047,8 @@ It is a programming approach that primarily focuses on using objects and classes
 ![Workshop Image](images/Copy%20of%20Programming%20Language%20Workshop%20for%20Beginners%20by%20Slidesgo.png)
 
 
+## Looking for quick reference and best practices? Check out my favorite ZTM cheatsheet here:  
+[ZTM Cheatsheet](Python_Cheatsheet_Zero_To_Mastery_V1.05.pdf)
+
 ## For more detailed explanations and examples, refer to [W3Schools Python Tutorial](https://www.w3schools.com/python/default.asp)
 
